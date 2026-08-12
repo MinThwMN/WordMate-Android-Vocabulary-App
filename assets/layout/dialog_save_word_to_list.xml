@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutSaveWordDialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_settings_group_card"
+    android:padding="@dimen/define_dimen_24">
+
+    <TextView
+        android:id="@+id/txtSaveWordTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_word_to_list"
+        android:textColor="@color/dark_navy"
+        android:textSize="@dimen/text_app_title"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/define_dimen_8" />
+
+    <TextView
+        android:id="@+id/txtSaveWordSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_name"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_caption"
+        android:layout_marginBottom="@dimen/define_dimen_14" />
+
+    <LinearLayout
+        android:id="@+id/layoutWordListContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/btnCloseSaveWordDialog"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/define_dimen_40"
+        android:layout_marginTop="@dimen/define_dimen_16"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="@color/error_red"
+        android:textSize="@dimen/text_button"
+        android:textStyle="bold" />
+
+</LinearLayout>

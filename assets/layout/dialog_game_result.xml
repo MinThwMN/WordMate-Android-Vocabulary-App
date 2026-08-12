@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_game_popup"
+    android:padding="@dimen/define_dimen_20">
+
+    <TextView
+        android:id="@+id/txtResultTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/game_complete"
+        android:textColor="@color/dark_navy"
+        android:textSize="@dimen/text_meaning"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtResultScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/score_format"
+        android:textColor="@color/primary_blue"
+        android:textSize="@dimen/text_flashcard_word"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/define_dimen_12" />
+
+    <TextView
+        android:id="@+id/txtResultDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/game_score_default"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_body"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/define_dimen_8" />
+
+    <TextView
+        android:id="@+id/btnResultReplay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/define_dimen_50"
+        android:gravity="center"
+        android:text="@string/play_again"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_button"
+        android:textStyle="bold"
+        android:background="@drawable/bg_primary_button"
+        android:layout_marginTop="@dimen/define_dimen_18" />
+
+    <TextView
+        android:id="@+id/btnResultExit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/define_dimen_45"
+        android:gravity="center"
+        android:text="@string/exit"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_button"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/define_dimen_8" />
+
+</LinearLayout>

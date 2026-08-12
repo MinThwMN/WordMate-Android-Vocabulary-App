@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardWord"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/define_dimen_14"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="@dimen/define_dimen_18"
+    card_view:cardElevation="@dimen/define_dimen_4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/define_dimen_90"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_fragment_card"
+        android:padding="@dimen/define_dimen_14">
+
+        <!-- Word content -->
+        <LinearLayout
+            android:id="@+id/layoutWordContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtWord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="airport"
+                android:textColor="@color/dark_navy"
+                android:textSize="@dimen/text_meaning"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtIpa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/ˈeəpɔːt/"
+                android:textColor="@color/primary_blue"
+                android:textSize="@dimen/text_ipa"
+                android:layout_marginTop="@dimen/define_dimen_4" />
+
+            <TextView
+                android:id="@+id/txtMeaning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sân bay"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_body"
+                android:layout_marginTop="@dimen/define_dimen_4" />
+
+        </LinearLayout>
+
+        <!-- Audio -->
+        <ImageView
+            android:id="@+id/imgWordAudio"
+            android:layout_width="@dimen/define_dimen_45"
+            android:layout_height="@dimen/define_dimen_45"
+            android:src="@drawable/ic_sound"
+            app:tint="@color/primary_blue"
+            android:background="@drawable/bg_circle_light"
+            android:padding="@dimen/define_dimen_10"
+            android:contentDescription="Audio"
+            android:layout_marginStart="@dimen/define_dimen_8" />
+
+        <!-- Favorite -->
+        <ImageView
+            android:id="@+id/imgWordFavorite"
+            android:layout_width="@dimen/define_dimen_45"
+            android:layout_height="@dimen/define_dimen_45"
+            android:src="@drawable/ic_favorite"
+            app:tint="@color/gray"
+            android:background="@drawable/bg_circle_light"
+            android:padding="@dimen/define_dimen_10"
+            android:contentDescription="Favorite"
+            android:layout_marginStart="@dimen/define_dimen_8" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutCreateWordListDialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_settings_group_card"
+    android:padding="@dimen/define_dimen_24">
+
+    <TextView
+        android:id="@+id/txtCreateListTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_new_list"
+        android:textColor="@color/dark_navy"
+        android:textSize="@dimen/text_app_title"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/define_dimen_16"/>
+
+    <EditText
+        android:id="@+id/edtListName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/define_dimen_50"
+        android:layout_marginTop="@dimen/define_dimen_8"
+        android:layout_marginBottom="@dimen/define_dimen_8"
+        android:background="@drawable/bg_login_input_card"
+        android:gravity="center_vertical"
+        android:hint="@string/list_name"
+        android:inputType="textCapSentences"
+        android:maxLength="30"
+        android:paddingStart="@dimen/define_dimen_16"
+        android:paddingEnd="@dimen/define_dimen_16"
+        android:singleLine="true"
+        android:textColor="@color/dark_navy"
+        android:textColorHint="@color/gray"
+        android:textSize="@dimen/text_body"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/define_dimen_16">
+
+        <TextView
+            android:id="@+id/btnCancelCreateList"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/define_dimen_50"
+            android:layout_weight="1"
+            android:background="@drawable/bg_outline_button"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/primary_blue"
+            android:textSize="@dimen/text_button"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnSaveCreateList"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/define_dimen_50"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/define_dimen_12"
+            android:background="@drawable/bg_primary_button"
+            android:gravity="center"
+            android:text="@string/create"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_button"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

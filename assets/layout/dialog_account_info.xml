@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutDialogAccount"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_settings_group_card"
+    android:padding="@dimen/define_dimen_24">
+
+    <TextView
+        android:id="@+id/txtDialogHeaderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account_info"
+        android:textColor="@color/dark_navy"
+        android:textSize="@dimen/text_app_title"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDialogSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_display_name"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_caption"
+        android:layout_marginTop="@dimen/define_dimen_6"
+        android:layout_marginBottom="@dimen/define_dimen_20" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textColor="@color/dark_navy"
+        android:textSize="@dimen/text_caption"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDialogEmail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/define_dimen_50"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_login_input_card"
+        android:paddingStart="@dimen/define_dimen_16"
+        android:paddingEnd="@dimen/define_dimen_16"
+        android:text="example@gmail.com"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_body"
+        android:layout_marginTop="@dimen/define_dimen_8"
+        android:layout_marginBottom="@dimen/define_dimen_16" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/display_name"
+        android:textColor="@color/dark_navy"
+        android:textSize="@dimen/text_caption"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtDialogName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/define_dimen_50"
+        android:background="@drawable/bg_login_input_card"
+        android:hint="@string/enter_display_name"
+        android:inputType="textCapWords"
+        android:singleLine="true"
+        android:paddingStart="@dimen/define_dimen_16"
+        android:paddingEnd="@dimen/define_dimen_16"
+        android:textColor="@color/dark_navy"
+        android:textColorHint="@color/gray"
+        android:textSize="@dimen/text_body"
+        android:layout_marginTop="@dimen/define_dimen_8"
+        android:layout_marginBottom="@dimen/define_dimen_4" />
+
+    <TextView
+        android:id="@+id/btnChangePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/change_password"
+        android:textColor="@color/primary_blue"
+        android:textSize="@dimen/text_caption"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/define_dimen_6"
+        android:paddingBottom="@dimen/define_dimen_16"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btnDialogCancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/define_dimen_50"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/primary_blue"
+            android:textSize="@dimen/text_button"
+            android:textStyle="bold"
+            android:background="@drawable/bg_outline_button" />
+
+        <TextView
+            android:id="@+id/btnDialogSave"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/define_dimen_50"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_button"
+            android:textStyle="bold"
+            android:background="@drawable/bg_primary_button"
+            android:layout_marginStart="@dimen/define_dimen_12" />
+
+    </LinearLayout>
+
+</LinearLayout>
