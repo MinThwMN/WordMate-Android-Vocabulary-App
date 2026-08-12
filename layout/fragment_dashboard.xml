@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_app"
+    android:fillViewport="true"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:id="@+id/layoutDashboardContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/define_dimen_16"
+        android:paddingTop="@dimen/define_dimen_20"
+        android:paddingEnd="@dimen/define_dimen_16"
+        android:paddingBottom="@dimen/define_dimen_20">
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/txtDashboardTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_dashboard"
+            android:textColor="@color/dark_navy"
+            android:textSize="@dimen/text_app_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDashboardSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dashboard_subtitle"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_body"
+            android:layout_marginTop="@dimen/define_dimen_4"
+            android:layout_marginBottom="@dimen/define_dimen_16" />
+
+        <!-- Today progress card -->
+        <LinearLayout
+            android:id="@+id/layoutTodayProgressCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_dashboard_highlight_card"
+            android:padding="@dimen/define_dimen_18"
+            android:layout_marginBottom="@dimen/define_dimen_16">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTodayProgressTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/today_progress"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_body"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtTodayProgressDesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/today_progress_format"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_caption"
+                        android:layout_marginTop="@dimen/define_dimen_4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/goal_setting"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_caption"
+                        android:textStyle="bold"
+                        android:background="@drawable/bg_goal_setting_chip"
+                        android:paddingStart="@dimen/define_dimen_10"
+                        android:paddingTop="@dimen/define_dimen_5"
+                        android:paddingEnd="@dimen/define_dimen_10"
+                        android:paddingBottom="@dimen/define_dimen_5"
+                        android:layout_marginTop="@dimen/define_dimen_10" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/layoutTodayCircle"
+                    android:layout_width="@dimen/define_dimen_70"
+                    android:layout_height="@dimen/define_dimen_70">
+
+                    <com.google.android.material.progressindicator.CircularProgressIndicator
+                        android:id="@+id/progressToday"
+                        android:layout_width="@dimen/define_dimen_70"
+                        android:layout_height="@dimen/define_dimen_70"
+                        android:layout_gravity="center"
+                        android:max="100"
+                        android:progress="0"
+                        app:indicatorColor="@color/white"
+                        app:indicatorSize="@dimen/define_dimen_65"
+                        app:trackColor="@color/soft_blue"
+                        app:trackThickness="@dimen/define_dimen_5" />
+
+                    <TextView
+                        android:id="@+id/txtTodayPercent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="0%"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_caption"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Stats row 1 -->
+        <LinearLayout
+            android:id="@+id/layoutStatsRowOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/define_dimen_12">
+
+            <LinearLayout
+                android:id="@+id/cardLearnedWords"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/define_dimen_120"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/bg_dashboard_stat_card"
+                android:padding="@dimen/define_dimen_12">
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_35"
+                    android:layout_height="@dimen/define_dimen_35"
+                    android:src="@drawable/ic_dashboard_book"
+                    app:tint="@color/primary_blue"
+                    android:contentDescription="Learned words" />
+
+                <TextView
+                    android:id="@+id/txtLearnedWordsNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/dark_navy"
+                    android:textSize="@dimen/text_meaning"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/define_dimen_8" />
+
+                <TextView
+                    android:id="@+id/txtLearnedWordsLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/learned_words"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_caption" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cardReviewWords"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/define_dimen_120"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/bg_dashboard_stat_card"
+                android:padding="@dimen/define_dimen_12"
+                android:layout_marginStart="@dimen/define_dimen_12">
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_35"
+                    android:layout_height="@dimen/define_dimen_35"
+                    android:src="@drawable/ic_dashboard_review"
+                    app:tint="@color/primary_blue"
+                    android:contentDescription="Review words" />
+
+                <TextView
+                    android:id="@+id/txtReviewWordsNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/dark_navy"
+                    android:textSize="@dimen/text_meaning"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/define_dimen_8" />
+
+                <TextView
+                    android:id="@+id/txtReviewWordsLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/review_words"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_caption" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Stats row 2 -->
+        <LinearLayout
+            android:id="@+id/layoutStatsRowTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/define_dimen_16">
+
+            <LinearLayout
+                android:id="@+id/cardStreak"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/define_dimen_120"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/bg_dashboard_stat_card"
+                android:padding="@dimen/define_dimen_12">
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_35"
+                    android:layout_height="@dimen/define_dimen_35"
+                    android:src="@drawable/bg_streak"
+                    android:contentDescription="Streak" />
+
+                <TextView
+                    android:id="@+id/txtStreakNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/dark_navy"
+                    android:textSize="@dimen/text_meaning"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/define_dimen_8" />
+
+                <TextView
+                    android:id="@+id/txtStreakLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/streak_days"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_caption" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cardStudyTime"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/define_dimen_120"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/bg_dashboard_stat_card"
+                android:padding="@dimen/define_dimen_12"
+                android:layout_marginStart="@dimen/define_dimen_12">
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_35"
+                    android:layout_height="@dimen/define_dimen_35"
+                    android:src="@drawable/ic_dashboard_time"
+                    app:tint="@color/primary_blue"
+                    android:contentDescription="Study time" />
+
+                <TextView
+                    android:id="@+id/txtStudyTimeNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0m"
+                    android:textColor="@color/dark_navy"
+                    android:textSize="@dimen/text_meaning"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/define_dimen_8" />
+
+                <TextView
+                    android:id="@+id/txtStudyTimeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/study_time"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_caption" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Weekly chart -->
+        <LinearLayout
+            android:id="@+id/layoutWeeklyChartCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_dashboard_group_card"
+            android:padding="@dimen/define_dimen_16"
+            android:layout_marginBottom="@dimen/define_dimen_16">
+
+            <TextView
+                android:id="@+id/txtWeeklyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weekly_progress"
+                android:textColor="@color/dark_navy"
+                android:textSize="@dimen/text_meaning"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtWeeklySubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weekly_subtitle"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_caption"
+                android:layout_marginTop="@dimen/define_dimen_4"
+                android:layout_marginBottom="@dimen/define_dimen_16" />
+
+            <!-- Fake bar chart -->
+            <LinearLayout
+                android:id="@+id/layoutWeeklyBars"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="bottom"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="@dimen/define_dimen_18"
+                        android:layout_height="@dimen/define_dimen_40"
+                        android:background="@drawable/bg_chart_bar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/monday_short"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/text_caption"
+                        android:layout_marginTop="@dimen/define_dimen_6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="@dimen/define_dimen_18"
+                        android:layout_height="@dimen/define_dimen_40"
+                        android:background="@drawable/bg_chart_bar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuesday_short"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/text_caption"
+                        android:layout_marginTop="@dimen/define_dimen_6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="@dimen/define_dimen_18"
+                        android:layout_height="@dimen/define_dimen_40"
+                        android:background="@drawable/bg_chart_bar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wednesday_short"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/text_caption"
+                        android:layout_marginTop="@dimen/define_dimen_6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="@dimen/define_dimen_18"
+                        android:layout_height="@dimen/define_dimen_40"
+                        android:background="@drawable/bg_chart_bar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/thursday_short"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/text_caption"
+                        android:layout_marginTop="@dimen/define_dimen_6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="@dimen/define_dimen_18"
+                        android:layout_height="@dimen/define_dimen_40"
+                        android:background="@drawable/bg_chart_bar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/friday_short"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/text_caption"
+                        android:layout_marginTop="@dimen/define_dimen_6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="@dimen/define_dimen_18"
+                        android:layout_height="@dimen/define_dimen_40"
+                        android:background="@drawable/bg_chart_bar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/saturday_short"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/text_caption"
+                        android:layout_marginTop="@dimen/define_dimen_6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="@dimen/define_dimen_18"
+                        android:layout_height="@dimen/define_dimen_40"
+                        android:background="@drawable/bg_chart_bar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sunday_short"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/text_caption"
+                        android:layout_marginTop="@dimen/define_dimen_6" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Current topic -->
+        <LinearLayout
+            android:id="@+id/layoutCurrentTopicCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_dashboard_group_card"
+            android:padding="@dimen/define_dimen_16">
+
+            <ImageView
+                android:id="@+id/imgCurrentTopic"
+                android:layout_width="@dimen/define_dimen_56"
+                android:layout_height="@dimen/define_dimen_56"
+                android:src="@drawable/img_topic_travel"
+                android:scaleType="centerInside"
+                android:contentDescription="Current topic" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/define_dimen_14">
+
+                <TextView
+                    android:id="@+id/txtCurrentTopicTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/current_topic"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_caption" />
+
+                <TextView
+                    android:id="@+id/txtCurrentTopicName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Travel"
+                    android:textColor="@color/dark_navy"
+                    android:textSize="@dimen/text_meaning"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/define_dimen_4" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtCurrentTopicProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textColor="@color/primary_blue"
+                android:textSize="@dimen/text_body"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
