@@ -152,16 +152,22 @@ Potential improvements include:
 ## Project Structure
  ```text
 WordMate/
-├── app/
-│   ├── src/
-│   │   └── main/
-│   │       ├── java/
-│   │       ├── res/
-│   │       └── AndroidManifest.xml
-│   └── build.gradle
+├── androidTest/
+├── assets/
+├── build/
 ├── gradle/
-├── build.gradle
-└── README.md
+├── java/
+├── res/
+├── test/
+├── AndroidManifest.xml
+├── README.md
+├── build.gradle.kts
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── ic_logp-playstore.png
+├── local.properties
+└── settings.gradle.kts
 
 ```
 ## Project Information
