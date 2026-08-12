@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutGamePopupRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_game_popup"
+    android:padding="@dimen/define_dimen_18">
+
+    <TextView
+        android:id="@+id/txtGamePopupTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_review_game"
+        android:textColor="@color/dark_navy"
+        android:textSize="@dimen/text_meaning"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtGamePopupSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_review_mode"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_caption"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/define_dimen_4"
+        android:layout_marginBottom="@dimen/define_dimen_16" />
+
+    <!-- Game 1 -->
+    <LinearLayout
+        android:id="@+id/layoutGameQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/define_dimen_60"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_game_popup_item"
+        android:paddingStart="@dimen/define_dimen_14"
+        android:paddingEnd="@dimen/define_dimen_14">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/game_quiz"
+            android:textColor="@color/dark_navy"
+            android:textSize="@dimen/text_body"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/define_dimen_12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="›"
+            android:textColor="@color/primary_blue"
+            android:textSize="@dimen/define_dimen_30"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Game 2 -->
+    <LinearLayout
+        android:id="@+id/layoutGameFill"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/define_dimen_60"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_game_popup_item"
+        android:paddingStart="@dimen/define_dimen_14"
+        android:paddingEnd="@dimen/define_dimen_14"
+        android:layout_marginTop="@dimen/define_dimen_10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/game_fill_missing_letters"
+            android:textColor="@color/dark_navy"
+            android:textSize="@dimen/text_body"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/define_dimen_12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="›"
+            android:textColor="@color/primary_blue"
+            android:textSize="@dimen/define_dimen_30"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Game 3 -->
+    <LinearLayout
+        android:id="@+id/layoutGameMatch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/define_dimen_60"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_game_popup_item"
+        android:paddingStart="@dimen/define_dimen_14"
+        android:paddingEnd="@dimen/define_dimen_14"
+        android:layout_marginTop="@dimen/define_dimen_10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/game_match_word_meaning"
+            android:textColor="@color/dark_navy"
+            android:textSize="@dimen/text_body"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/define_dimen_12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="›"
+            android:textColor="@color/primary_blue"
+            android:textSize="@dimen/define_dimen_30"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnCloseGamePopup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/define_dimen_45"
+        android:gravity="center"
+        android:text="@string/close"
+        android:textColor="@color/error_red"
+        android:textSize="@dimen/text_button"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/define_dimen_14" />
+
+</LinearLayout>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootSettings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_app"
+    android:fillViewport="true"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:id="@+id/layoutSettingsContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/define_dimen_16"
+        android:paddingTop="@dimen/define_dimen_16"
+        android:paddingEnd="@dimen/define_dimen_16"
+        android:paddingBottom="@dimen/define_dimen_16">
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/txtSettingsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_settings"
+            android:textColor="@color/dark_navy"
+            android:textSize="@dimen/text_app_title"
+            android:textStyle="bold" />
+
+        <!-- Profile Card -->
+        <LinearLayout
+            android:id="@+id/layoutProfileCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/bg_settings_profile_card"
+            android:padding="@dimen/define_dimen_20"
+            android:layout_marginBottom="@dimen/define_dimen_20"
+            android:layout_marginTop="@dimen/define_dimen_16">
+
+            <FrameLayout
+                android:layout_width="@dimen/define_dimen_80"
+                android:layout_height="@dimen/define_dimen_80"
+                android:background="@drawable/bg_avatar_circle">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imgUserAvatar"
+                    android:layout_width="@dimen/define_dimen_80"
+                    android:layout_height="@dimen/define_dimen_80"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_user"
+                    android:padding="@dimen/define_dimen_14"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="User avatar"
+                    app:shapeAppearanceOverlay="@style/CircleImageView" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/txtProfileTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_title"
+                android:textColor="@color/dark_navy"
+                android:textSize="@dimen/text_body"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/define_dimen_12" />
+
+            <TextView
+                android:id="@+id/txtProfileSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_subtitle"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_caption"
+                android:layout_marginTop="@dimen/define_dimen_4" />
+
+            <TextView
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/define_dimen_40"
+                android:gravity="center"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_caption"
+                android:textStyle="bold"
+                android:background="@drawable/bg_login_button"
+                android:paddingStart="@dimen/define_dimen_20"
+                android:paddingEnd="@dimen/define_dimen_20"
+                android:layout_marginTop="@dimen/define_dimen_12" />
+
+        </LinearLayout>
+
+        <!-- GENERAL SECTION -->
+        <TextView
+            android:id="@+id/txtGeneralTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/general_settings"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/define_dimen_8" />
+
+        <LinearLayout
+            android:id="@+id/layoutGeneralCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_settings_group_card"
+            android:layout_marginBottom="@dimen/define_dimen_18">
+
+            <!-- Dark mode -->
+            <LinearLayout
+                android:id="@+id/layoutDarkMode"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_60"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/define_dimen_16"
+                android:paddingEnd="@dimen/define_dimen_16">
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_26"
+                    android:layout_height="@dimen/define_dimen_26"
+                    android:src="@drawable/ic_dark_mode"
+                    app:tint="@color/primary_blue"
+                    android:contentDescription="Dark mode" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/dark_mode"
+                    android:textColor="@color/dark_navy"
+                    android:textSize="@dimen/text_body"
+                    android:layout_marginStart="@dimen/define_dimen_14" />
+
+                <Switch
+                    android:id="@+id/switchDarkMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:thumbTint="@color/switch_thumb_color"
+                    android:trackTint="@color/switch_track_color" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_2"
+                android:background="@color/very_light_gray" />
+
+            <!-- Sound -->
+            <LinearLayout
+                android:id="@+id/layoutSound"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_60"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/define_dimen_16"
+                android:paddingEnd="@dimen/define_dimen_16">
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_26"
+                    android:layout_height="@dimen/define_dimen_26"
+                    android:src="@drawable/ic_sound"
+                    app:tint="@color/primary_blue"
+                    android:contentDescription="Sound" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/sound"
+                    android:textColor="@color/dark_navy"
+                    android:textSize="@dimen/text_body"
+                    android:layout_marginStart="@dimen/define_dimen_14" />
+
+                <Switch
+                    android:id="@+id/switchSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:thumbTint="@color/switch_thumb_color"
+                    android:trackTint="@color/switch_track_color" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_2"
+                android:background="@color/very_light_gray" />
+
+            <!-- Language -->
+            <LinearLayout
+                android:id="@+id/layoutLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_60"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/define_dimen_16"
+                android:paddingEnd="@dimen/define_dimen_16">
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_26"
+                    android:layout_height="@dimen/define_dimen_26"
+                    android:src="@drawable/ic_language"
+                    app:tint="@color/primary_blue"
+                    android:contentDescription="Language" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/language"
+                    android:textColor="@color/dark_navy"
+                    android:textSize="@dimen/text_body"
+                    android:layout_marginStart="@dimen/define_dimen_14" />
+
+                <TextView
+                    android:id="@+id/txtSelectedLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_language"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_caption"
+                    android:layout_marginEnd="@dimen/define_dimen_8" />
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_24"
+                    android:layout_height="@dimen/define_dimen_24"
+                    android:src="@drawable/ic_arrow_right"
+                    app:tint="@color/gray"
+                    android:contentDescription="Open language" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_2"
+                android:background="@color/very_light_gray" />
+
+            <!-- Reminder -->
+            <LinearLayout
+                android:id="@+id/layoutReminder"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_60"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/define_dimen_16"
+                android:paddingEnd="@dimen/define_dimen_16">
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_26"
+                    android:layout_height="@dimen/define_dimen_26"
+                    android:src="@drawable/ic_notification"
+                    app:tint="@color/primary_blue"
+                    android:contentDescription="Reminder" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/define_dimen_14">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reminder"
+                        android:textColor="@color/dark_navy"
+                        android:textSize="@dimen/text_body" />
+
+                    <TextView
+                        android:id="@+id/txtReminderTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20:00"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/text_caption"
+                        android:layout_marginTop="@dimen/define_dimen_2" />
+
+                </LinearLayout>
+
+                <Switch
+                    android:id="@+id/switchReminder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:thumbTint="@color/switch_thumb_color"
+                    android:trackTint="@color/switch_track_color" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- ACCOUNT SECTION -->
+        <TextView
+            android:id="@+id/txtAccountSectionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account_section"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/define_dimen_8" />
+
+        <LinearLayout
+            android:id="@+id/layoutAccountCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_settings_group_card"
+            android:layout_marginBottom="@dimen/define_dimen_18">
+
+            <LinearLayout
+                android:id="@+id/layoutAccountInfo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_60"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/define_dimen_16"
+                android:paddingEnd="@dimen/define_dimen_16">
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_26"
+                    android:layout_height="@dimen/define_dimen_26"
+                    android:src="@drawable/ic_user"
+                    app:tint="@color/primary_blue"
+                    android:contentDescription="Account" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/account_info"
+                    android:textColor="@color/dark_navy"
+                    android:textSize="@dimen/text_body"
+                    android:layout_marginStart="@dimen/define_dimen_14" />
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_24"
+                    android:layout_height="@dimen/define_dimen_24"
+                    android:src="@drawable/ic_arrow_right"
+                    app:tint="@color/gray"
+                    android:contentDescription="Open account" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_2"
+                android:background="@color/very_light_gray" />
+
+            <LinearLayout
+                android:id="@+id/layoutLogout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_60"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/define_dimen_16"
+                android:paddingEnd="@dimen/define_dimen_16">
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_26"
+                    android:layout_height="@dimen/define_dimen_26"
+                    android:src="@drawable/ic_logout"
+                    app:tint="@color/error_red"
+                    android:contentDescription="Logout" />
+
+                <TextView
+                    android:id="@+id/btnLogout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/logout"
+                    android:textColor="@color/error_red"
+                    android:textSize="@dimen/text_body"
+                    android:layout_marginStart="@dimen/define_dimen_14" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_2"
+                android:background="@color/very_light_gray" />
+
+            <LinearLayout
+                android:id="@+id/layoutDeleteAccount"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_60"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/define_dimen_16"
+                android:paddingEnd="@dimen/define_dimen_16">
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_26"
+                    android:layout_height="@dimen/define_dimen_26"
+                    android:src="@drawable/ic_delete"
+                    app:tint="@color/error_red"
+                    android:contentDescription="Delete account" />
+
+                <TextView
+                    android:id="@+id/btnDeleteAccount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/delete_account"
+                    android:textColor="@color/error_red"
+                    android:textSize="@dimen/text_body"
+                    android:layout_marginStart="@dimen/define_dimen_14" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- SUPPORT SECTION -->
+        <TextView
+            android:id="@+id/txtSupportSectionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/support_section"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/define_dimen_8" />
+
+        <LinearLayout
+            android:id="@+id/layoutSupportCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_settings_group_card">
+
+            <LinearLayout
+                android:id="@+id/layoutTerms"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_60"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/define_dimen_16"
+                android:paddingEnd="@dimen/define_dimen_16">
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_26"
+                    android:layout_height="@dimen/define_dimen_26"
+                    android:src="@drawable/ic_support"
+                    app:tint="@color/primary_blue"
+                    android:contentDescription="Terms" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/terms"
+                    android:textColor="@color/dark_navy"
+                    android:textSize="@dimen/text_body"
+                    android:layout_marginStart="@dimen/define_dimen_14" />
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_24"
+                    android:layout_height="@dimen/define_dimen_24"
+                    android:src="@drawable/ic_arrow_right"
+                    app:tint="@color/gray"
+                    android:contentDescription="Open terms" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_2"
+                android:background="@color/very_light_gray" />
+
+            <LinearLayout
+                android:id="@+id/layoutPrivacy"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/define_dimen_60"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/define_dimen_16"
+                android:paddingEnd="@dimen/define_dimen_16">
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_26"
+                    android:layout_height="@dimen/define_dimen_26"
+                    android:src="@drawable/ic_privacy"
+                    app:tint="@color/primary_blue"
+                    android:contentDescription="Privacy" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/privacy"
+                    android:textColor="@color/dark_navy"
+                    android:textSize="@dimen/text_body"
+                    android:layout_marginStart="@dimen/define_dimen_14" />
+
+                <ImageView
+                    android:layout_width="@dimen/define_dimen_24"
+                    android:layout_height="@dimen/define_dimen_24"
+                    android:src="@drawable/ic_arrow_right"
+                    app:tint="@color/gray"
+                    android:contentDescription="Open privacy" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

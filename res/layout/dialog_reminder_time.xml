@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutDialogReminder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_settings_group_card"
+    android:padding="@dimen/define_dimen_26">
+
+    <TextView
+        android:id="@+id/txtReminderDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/study_reminder"
+        android:textColor="@color/dark_navy"
+        android:textSize="@dimen/text_app_title"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtReminderDialogSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/study_reminder_description"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_caption"
+        android:layout_marginTop="@dimen/define_dimen_4"
+        android:layout_marginBottom="@dimen/define_dimen_2" />
+
+    <TimePicker
+        android:id="@+id/timePickerReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/define_dimen_4">
+
+        <TextView
+            android:id="@+id/btnReminderCancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/define_dimen_40"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/primary_blue"
+            android:textSize="@dimen/text_button"
+            android:textStyle="bold"
+            android:background="@drawable/bg_outline_button" />
+
+        <TextView
+            android:id="@+id/btnReminderSave"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/define_dimen_40"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_button"
+            android:textStyle="bold"
+            android:background="@drawable/bg_primary_button"
+            android:layout_marginStart="@dimen/define_dimen_22" />
+
+    </LinearLayout>
+
+</LinearLayout>
