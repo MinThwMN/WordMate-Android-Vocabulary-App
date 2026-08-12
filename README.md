@@ -150,7 +150,7 @@ Potential improvements include:
 - Improving data synchronization
 - Developing an iOS version
 ## Project Structure
-
+ ```text
 WordMate/
 ├── app/
 │   ├── src/
@@ -163,7 +163,7 @@ WordMate/
 ├── build.gradle
 └── README.md
 
-
+```
 ## Project Information
 
 Course: Mobile Application Development
