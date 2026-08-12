@@ -111,7 +111,7 @@ Home
        +-- Dark Mode
        +-- Learning Reminder
 ```
-###UI/UX
+## UI/UX
 The application follows a simple and user-friendly interface designed for English learners.
 
 Main screens include:
@@ -125,7 +125,7 @@ Main screens include:
 - Vocabulary Games
 The application supports both Light Mode and Dark Mode.
 
-###Testing and Deployment
+## Testing and Deployment
 
 The main application workflows were tested, including:
 
@@ -139,7 +139,7 @@ The main application workflows were tested, including:
 - 
 The application was built as a Debug APK and tested on Android devices.
 
-###Future Development
+## Future Development
 
 Potential improvements include:
 
@@ -149,7 +149,7 @@ Potential improvements include:
 - Providing more detailed learning statistics
 - Improving data synchronization
 - Developing an iOS version
-###Project Structure
+## Project Structure
 
 WordMate/
 ├── app/
@@ -164,7 +164,7 @@ WordMate/
 └── README.md
 
 
-###Project Information
+## Project Information
 
 Course: Mobile Application Development
 
