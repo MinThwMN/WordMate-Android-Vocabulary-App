@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WordMate</string>
+
+    <string name="facebook_app_id">1011224304770062</string>
+    <string name="facebook_client_token">eff633526fd9c03145ff0a11bf7f70</string>
+    <string name="fb_login_protocol_scheme">fb101122304770062</string>
+
+    <string name="flashcard_button_previous">Previous</string>
+    <string name="flashcard_button_next">Next</string>
+
+    <string name="game_question">Question</string>
+    <string name="game_quiz">Quiz</string>
+    <string name="game_score_default">Correct: 0 \u00A0\u00A0\u00A0 Wrong: 0</string>
+
+    <string name="game_quiz_answer1">A. airport</string>
+    <string name="game_quiz_answer2">B. passport</string>
+    <string name="game_quiz_answer3">C. hotel</string>
+    <string name="game_quiz_answer4">D. luggage</string>
+
+    <string name="game_fill_answer">Enter the full word...</string>
+    <string name="game_fill_button_check">Check</string>
+
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="content">Content</string>
+
+    <string name="login">Log in</string>
+    <string name="login_subtitle">Welcome back to WordMate</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or">Or</string>
+    <string name="register">Register</string>
+    <string name="no_account">Don’t have an account?</string>
+    <string name="register_subtitle">Create a new WordMate account</string>
+    <string name="register_name">Full name</string>
+    <string name="register_confirm_password">Confirm password</string>
+    <string name="have_account">Already have an account?</string>
+
+    <string name="number_of_words">0 words</string>
+
+    <string name="account_info">Account information</string>
+    <string name="update_display_name">Update your display name</string>
+
+    <string name="display_name">Display name</string>
+    <string name="enter_display_name">Enter display name</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <string name="choose_review_game">Choose review game</string>
+    <string name="choose_review_mode">Choose a mode to review vocabulary</string>
+    <string name="game_fill_missing_letters">Fill in missing letters</string>
+    <string name="game_match_word_meaning">Match words with meanings</string>
+    <string name="close">Close</string>
+
+    <string name="game_complete">Completed!</string>
+    <string name="score_format">80 points</string>
+    <string name="play_again">Play again</string>
+    <string name="exit">Exit</string>
+
+    <string name="study_reminder">Study reminder</string>
+    <string name="study_reminder_description">Choose when you want to be reminded to study vocabulary every day</string>
+
+    <string name="dashboard_subtitle">Track your vocabulary learning progress</string>
+    <string name="today_progress">Today’s progress</string>
+    <string name="today_progress_format">You have learned 0 / 5 words today</string>
+    <string name="goal_setting">Set goal →</string>
+
+    <string name="learned_words">Learned words</string>
+    <string name="review_words">Need review</string>
+    <string name="streak_days">Day streak</string>
+    <string name="study_time">Study time</string>
+    <string name="weekly_progress">Weekly progress</string>
+    <string name="weekly_subtitle">Words learned each day</string>
+
+    <string name="monday_short">Mon</string>
+    <string name="tuesday_short">Tue</string>
+    <string name="wednesday_short">Wed</string>
+    <string name="thursday_short">Thu</string>
+    <string name="friday_short">Fri</string>
+    <string name="saturday_short">Sat</string>
+    <string name="sunday_short">Sun</string>
+    <string name="current_topic">Current topic</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_favorite">Favorites</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="my_word_list">My word lists</string>
+    <string name="favorite_subtitle">Create favorite vocabulary lists to review later</string>
+    <string name="create_new_list">+ Create new list</string>
+    <string name="study_flashcard">Study Flashcards</string>
+
+    <string name="vocabulary">Vocabulary</string>
+
+    <string name="hint_enter_word">Enter a word...</string>
+    <string name="no_result_found">No result found.</string>
+    <string name="meaning">Meaning</string>
+    <string name="example">Example</string>
+
+    <string name="profile_title">Start your learning journey</string>
+    <string name="profile_subtitle">Log in to sync your learning progress</string>
+
+    <string name="general_settings">GENERAL SETTINGS</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="sound">Sound</string>
+    <string name="language">Language</string>
+    <string name="reminder">Vocabulary reminder</string>
+
+    <string name="default_language">English</string>
+
+    <string name="account_section">ACCOUNT</string>
+    <string name="logout">Log out</string>
+    <string name="delete_account">Delete my account</string>
+
+    <string name="support_section">SUPPORT</string>
+    <string name="terms">Terms of Service</string>
+    <string name="privacy">Privacy Policy</string>
+
+    <string name="choose_language">Choose language</string>
+    <string name="language_changed">Language changed</string>
+
+    <string name="reminder_channel_name">Vocabulary reminder</string>
+    <string name="reminder_channel_description">Daily reminders to study vocabulary</string>
+    <string name="reminder_notification_text">It’s time to study vocabulary! Learn a few new words today.</string>
+    <string name="reminder_notification_big_text">It’s time to study vocabulary! Learn a few new words to keep your progress today.</string>
+
+    <string name="game_detail_score_format">Correct: %1$d\u00A0\u00A0\u00A0Wrong: %2$d</string>
+
+    <string name="tts_english_not_supported">English voice is not supported on this device</string>
+    <string name="tts_failed">Text to Speech failed</string>
+    <string name="audio_not_ready">Audio is not ready</string>
+
+    <!-- Language names -->
+    <string name="language_vietnamese">Vietnamese</string>
+    <string name="language_english">English</string>
+    <string name="language_japanese">Japanese</string>
+    <string name="language_korean">Korean</string>
+
+    <!-- Common -->
+    <string name="create">Create</string>
+    <string name="delete">Delete</string>
+    <string name="ok">OK</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="no_words">No vocabulary words</string>
+    <string name="no_answer">No answer</string>
+    <string name="back">Back</string>
+    <string name="audio">Audio</string>
+    <string name="review_game">Review game</string>
+    <string name="sync_data_failed">Could not sync data</string>
+    <string name="no_topic_data">No topic data</string>
+
+    <!-- Flashcard -->
+    <string name="tap_card_to_show_meaning">Tap the card to show the meaning</string>
+    <string name="flashcards_shuffled">Flashcards shuffled</string>
+    <string name="sound_is_off">Sound is off</string>
+    <string name="marked_as_learned_format">Marked as learned: %1$s</string>
+    <string name="default_review_list">Need Review</string>
+    <string name="create_new_list_with_plus">+ Create new list</string>
+    <string name="save_word_to_list">Save word to list</string>
+    <string name="removed_from_format">Removed from %1$s</string>
+    <string name="saved_to_format">Saved to %1$s</string>
+    <string name="finished_topic">You have completed this topic!</string>
+    <string name="not_enough_words_to_shuffle">Not enough words to shuffle</string>
+
+    <!-- Game -->
+    <string name="game_match_words">Match words with meanings</string>
+    <string name="choose_correct_meaning">Choose the correct meaning of the word</string>
+    <string name="fill_missing_word">Fill in the missing word</string>
+    <string name="check_answer">Check</string>
+    <string name="correct_answer">Correct!</string>
+    <string name="correct_plus_one">Correct! +1 point</string>
+    <string name="correct_plus_one_short">Correct +1</string>
+    <string name="wrong_answer">Wrong answer!</string>
+    <string name="answer_format">Answer: %1$s</string>
+    <string name="choose_word_first">Choose a word first</string>
+    <string name="match_completed">Word matching completed!</string>
+    <string name="try_again">Not correct, try again</string>
+    <string name="answer_before_next">Please answer before moving to the next question</string>
+    <string name="score_point_format">%1$d points</string>
+
+    <!-- Login / Register -->
+    <string name="logging_in">Logging in...</string>
+    <string name="login_success">Login successful</string>
+    <string name="login_failed_format">Login failed: %1$s</string>
+    <string name="google_login_success">Google login successful</string>
+    <string name="facebook_login_success">Facebook login successful</string>
+    <string name="error_enter_email">Please enter your email</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_enter_password">Please enter your password</string>
+    <string name="error_password_no_space">Password must not contain spaces</string>
+    <string name="error_password_min_6">Password must be at least 6 characters</string>
+    <string name="reset_password_email_sent">Password reset email has been sent</string>
+    <string name="register_success">Registration successful</string>
+    <string name="register_failed_format">Registration failed: %1$s</string>
+    <string name="error_enter_name">Please enter your full name</string>
+    <string name="error_enter_confirm_password">Please confirm your password</string>
+    <string name="error_password_not_match">Passwords do not match</string>
+
+    <!-- Settings -->
+    <string name="avatar_changed">Avatar changed</string>
+    <string name="reminder_enabled_message">Vocabulary study reminder enabled</string>
+    <string name="reminder_disabled_message">Vocabulary study reminder disabled</string>
+    <string name="notification_permission_required">You need to allow notifications to receive reminders</string>
+    <string name="notification_permission_not_required">This device does not require separate notification permission</string>
+    <string name="login_required_change_avatar">Please log in to change your avatar</string>
+    <string name="default_user_name">WordMate User</string>
+    <string name="logged_in">Logged in</string>
+    <string name="start_your_journey">Start your journey</string>
+    <string name="login_to_sync_progress">Log in to sync your learning progress</string>
+    <string name="reminder_time_set_format">Reminder set for %1$s</string>
+    <string name="allow_notification">Allow notifications</string>
+    <string name="notification_permission_message">WordMate needs notification permission to remind you to study vocabulary every day.</string>
+    <string name="grant_permission">Grant permission</string>
+    <string name="later">Later</string>
+
+    <!-- Account -->
+    <string name="account_not_logged_in">You are not logged in.</string>
+    <string name="not_logged_in">You are not logged in</string>
+    <string name="no_email">No email</string>
+    <string name="error_name_empty">Name cannot be empty</string>
+    <string name="error_name_min_2">Name must be at least 2 characters</string>
+    <string name="account_update_success">Account information updated</string>
+    <string name="account_update_failed_format">Could not update: %1$s</string>
+    <string name="logout_confirm_message">Are you sure you want to log out?</string>
+    <string name="logged_out">Logged out</string>
+    <string name="delete_account_confirm_message">Are you sure you want to delete your account?\n\nThis action will delete your learning data and cannot be undone.</string>
+    <string name="delete_account_success">Account deleted</string>
+    <string name="delete_account_data_failed_format">Could not delete account data: %1$s</string>
+    <string name="re_login_required_delete_account">You need to log in again before deleting your account</string>
+    <string name="delete_account_failed_format">Could not delete account: %1$s</string>
+
+    <!-- Favorite / word list -->
+    <string name="list_name">List name</string>
+    <string name="list_name_empty">List name cannot be empty</string>
+    <string name="word_count_format">%1$d words</string>
+    <string name="list_has_no_words">This list has no words yet</string>
+    <string name="delete_list">Delete list</string>
+    <string name="delete_list_message_format">Do you want to delete "%1$s"?</string>
+    <string name="deleted_format">Deleted: %1$s</string>
+    <string name="words_in_this_list_format">%1$d words in this list</string>
+    <string name="removed_word_format">Removed: %1$s</string>
+    <string name="created_format">Created: %1$s</string>
+
+    <!-- Dashboard -->
+    <string name="today_progress_dynamic_format">You have learned %1$d / %2$d words today</string>
+    <string name="enter_daily_goal_hint">Enter your daily word goal</string>
+    <string name="daily_goal_title">Daily goal settings</string>
+    <string name="daily_goal_message">How many words do you want to learn each day?</string>
+    <string name="error_enter_goal">Please enter your goal</string>
+    <string name="daily_goal_saved_format">Goal saved: %1$d words/day</string>
+    <string name="no_topic">No topic</string>
+
+    <!-- Info page -->
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_content">WordMate Privacy Policy\n\nWordMate respects user privacy and is committed to protecting personal information while users use the application.\n\n1. Information We Collect\nWordMate may collect and store necessary information such as email address, display name, profile picture, learning progress, favorite word lists, study time, daily learning goals, and personal settings such as language, sound, dark mode, and reminder time.\n\n2. How We Use Information\nThis information is used to support login, synchronize learning data, save study progress, personalize the vocabulary learning experience, display learning statistics, and send daily vocabulary reminders if the user enables this feature.\n\n3. Data Synchronization\nWhen users log in, some learning data may be synchronized to Firebase so users can continue learning with the same account. WordMate does not sell, exchange, or share personal data with third parties for commercial purposes.\n\n4. Device Permissions\nThe application may request Internet permission for login, vocabulary lookup, and data synchronization. The application may also request notification permission to send study reminders. If users choose a profile picture from their device, the image is used only to display the personal profile inside WordMate.\n\n5. Data Protection\nWordMate tries to protect user data through secure authentication and storage services. However, users are responsible for keeping their accounts safe and should not share passwords or login information with others.\n\n6. User Rights\nUsers can update account information, change personal settings, turn off reminder notifications, log out, or request account deletion inside the application. When an account is deleted, some related learning data may not be recoverable.\n\n7. Policy Updates\nThis privacy policy may be updated when the application changes or adds new features. Continuing to use WordMate after the policy is updated means that users agree to the new content.</string>
+
+    <string name="terms_of_service_content">WordMate Terms of Service\n\nBy using WordMate, users agree to follow the terms below.\n\n1. Purpose of Use\nWordMate is an application that supports English vocabulary learning through flashcards, review games, vocabulary lookup, favorite word lists, learning progress tracking, and daily study reminders. The application is designed for personal learning purposes.\n\n2. User Accounts\nUsers can register and log in using email or supported login methods such as Google and Facebook. Users are responsible for protecting their account information and should not share their account with others.\n\n3. Learning Data\nThe application may store learning progress, favorite word lists, game scores, learning goals, study time, and personal settings to help users track their learning process. When users log in, data may be synchronized to support use across multiple devices.\n\n4. User Responsibilities\nUsers must not use the application for cheating, damaging the system, accessing data without permission, affecting other user accounts, or using the application for improper purposes.\n\n5. Learning Content\nVocabulary content, examples, meanings, pronunciation, and learning suggestions in WordMate are provided for learning support. Users should combine the app with other learning materials, dictionaries, or teachers for better learning results.\n\n6. Third Party Services\nWordMate may use Firebase, Google Sign-In, Facebook Login, or vocabulary lookup APIs to provide login, synchronization, and lookup features. The use of these services may also be subject to the policies and terms of each provider.\n\n7. Service Changes or Interruptions\nWordMate may be updated, fixed, redesigned, or expanded with new features in the future. Some features may be temporarily interrupted due to maintenance, network issues, or third party service errors.\n\n8. Account Deletion\nUsers may delete their account if they no longer want to use the application. When an account is deleted, some related learning data may be removed and cannot be recovered.\n\n9. Limitation of Responsibility\nWordMate tries to provide a stable and useful learning experience, but it does not guarantee that the application will always be error free or perfectly suitable for every learning purpose.\n\n10. Acceptance of Terms\nBy continuing to use WordMate, users confirm that they have read, understood, and agreed to these terms of service.</string>
+    <string name="flashcard_title">Flashcard</string>
+    <string name="game_title">Game</string>
+
+    <string name="answer_option_a_format">A. %1$s</string>
+    <string name="answer_option_b_format">B. %1$s</string>
+    <string name="answer_option_c_format">C. %1$s</string>
+    <string name="answer_option_d_format">D. %1$s</string>
+    <string name="flashcard_count_format">%1$d / %2$d</string>
+    <string name="empty_flashcard_count">0 / 0</string>
+    <string name="percent_format">%1$d%%</string>
+    <string name="study_minutes_format">%1$dm</string>
+    <string name="study_hours_format">%1$dh</string>
+    <string name="study_hours_minutes_format">%1$dh %2$dm</string>
+
+    <string name="change_password">Change password?</string>
+    <string name="change_password_title">Change password</string>
+    <string name="change_password_subtitle">Enter a new password for WordMate. If you signed in with Google or Facebook, this password is only used to sign in to WordMate with email.</string>
+    <string name="current_password">Current password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="error_enter_current_password">Please enter your current password</string>
+    <string name="error_enter_new_password">Please enter your new password</string>
+    <string name="error_enter_confirm_new_password">Please confirm your new password</string>
+    <string name="error_new_password_same">New password must be different from current password</string>
+    <string name="current_password_wrong">Current password is incorrect</string>
+    <string name="password_change_success">Password changed successfully</string>
+    <string name="password_change_failed_format">Could not change password: %1$s</string>
+
+    <string name="error_enter_email_for_reset">Please enter your email to reset password</string>
+    <string name="reset_password_failed_format">Could not send password reset email: %1$s</string>
+
+    <string name="send_reset_email">Send reset email</string>
+    <string name="sending">Sending...</string>
+
+    <string name="logging_register">Registering...</string>
+    <string name="register_success_go_login">Registration successful. Please log in to continue</string>
+    <string name="error_confirm_password_no_space">Confirm password must not contain spaces</string>
+
+    <string name="unmarked_as_learned_format">Unmarked \"%1$s\" as learned</string>
+
+    <string name="daily_goal_note">Tip: Set a goal from 5 to 20 words per day to keep a steady learning habit.</string>
+
+    <string name="save_word_subtitle_format">Choose a list to save: %1$s</string>
+
+    <string name="splash_subtitle">Learn English smarter</string>
+
+    <string name="getting_started_title">Learn vocabulary more easily</string>
+    <string name="getting_started_subtitle">WordMate helps you learn words by topic, practice with flashcards, and track your daily progress.</string>
+
+    <string name="onboarding_topic_title">Learn words by topic</string>
+    <string name="onboarding_topic_desc">Explore familiar word groups such as travel, school, work, technology, and many other topics.</string>
+
+    <string name="onboarding_practice_title">Practice with flashcards and games</string>
+    <string name="onboarding_practice_desc">View meanings, listen to pronunciation, mark words as learned, and review them with short games.</string>
+
+    <string name="onboarding_progress_title">Track your learning progress</string>
+    <string name="onboarding_progress_desc">Track learned words, streaks, study time, daily goals, and words that need review.</string>
+
+    <string name="get_started">Get Started</string>
+
+    <string name="choose_language_title">Choose Language</string>
+    <string name="choose_language_subtitle">Choose the language you want to use in the app.</string>
+    <string name="no_review_words">No words need review yet</string>
+
+    <string name="search_a_word_first">Search a word first</string>
+    <string name="enter_word_first">Enter a word first</string>
+    <string name="dictionary_api_error">Cannot connect to dictionary API. Check your internet connection.</string>
+    <string name="no_definition_found">No definition found.</string>
+    <string name="no_example_available">No example available.</string>
+
+</resources>

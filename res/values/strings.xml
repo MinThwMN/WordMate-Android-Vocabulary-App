@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WordMate</string>
+
+    <string name="facebook_app_id">1011224304770062</string>
+    <string name="facebook_client_token">eff633526fd9c03145ff0a11bf7f70</string>
+    <string name="fb_login_protocol_scheme">fb101122304770062</string>
+
+    <string name="flashcard_button_previous">Trước</string>
+    <string name="flashcard_button_next">Tiếp theo</string>
+
+    <string name="game_question">Câu hỏi</string>
+    <string name="game_quiz">Trắc nghiệm</string>
+    <string name="game_score_default">Đúng: 0 \u00A0\u00A0\u00A0 Sai: 0</string>
+
+    <string name="game_quiz_answer1">A. sân bay</string>
+    <string name="game_quiz_answer2">B. hộ chiếu</string>
+    <string name="game_quiz_answer3">C. khách sạn</string>
+    <string name="game_quiz_answer4">D. hành lý</string>
+
+    <string name="game_fill_answer">Nhập từ đầy đủ...</string>
+    <string name="game_fill_button_check">Kiểm tra</string>
+
+    <string name="terms_of_service">Điều khoản sử dụng</string>
+    <string name="content">Nội dung</string>
+
+    <string name="login">Đăng nhập</string>
+    <string name="login_subtitle">Chào mừng bạn quay lại WordMate</string>
+
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="or">Hoặc</string>
+    <string name="register">Đăng ký</string>
+    <string name="no_account">Chưa có tài khoản?</string>
+    <string name="register_subtitle">Tạo tài khoản WordMate mới</string>
+    <string name="register_name">Họ và tên</string>
+    <string name="register_confirm_password">Nhập lại mật khẩu</string>
+    <string name="have_account">Đã có tài khoản?</string>
+
+    <string name="number_of_words">0 từ</string>
+
+    <string name="account_info">Thông tin tài khoản</string>
+    <string name="update_display_name">Cập nhật tên hiển thị của bạn</string>
+
+    <string name="display_name">Tên hiển thị</string>
+    <string name="enter_display_name">Nhập tên hiển thị</string>
+
+    <string name="cancel">Hủy</string>
+    <string name="save">Lưu</string>
+
+    <string name="choose_review_game">Chọn game ôn tập</string>
+    <string name="choose_review_mode">Chọn một chế độ để luyện lại từ vựng</string>
+    <string name="game_fill_missing_letters">Điền chữ còn thiếu</string>
+    <string name="game_match_word_meaning">Ghép từ với nghĩa</string>
+    <string name="close">Đóng</string>
+
+    <string name="game_complete">Hoàn thành!</string>
+    <string name="score_format">80 điểm</string>
+    <string name="play_again">Chơi lại</string>
+    <string name="exit">Thoát</string>
+
+    <string name="study_reminder">Nhắc nhở học</string>
+    <string name="study_reminder_description">Chọn thời gian bạn muốn được nhắc học từ vựng mỗi ngày</string>
+
+    <string name="dashboard_subtitle">Theo dõi tiến độ học từ vựng của bạn</string>
+    <string name="today_progress">Tiến độ hôm nay</string>
+    <string name="today_progress_format">Bạn đã học 0 / 5 từ hôm nay</string>
+    <string name="goal_setting">Cài đặt mục tiêu →</string>
+
+    <string name="learned_words">Từ đã học</string>
+    <string name="review_words">Cần ôn</string>
+    <string name="streak_days">Ngày liên tục</string>
+    <string name="study_time">Thời gian học</string>
+    <string name="weekly_progress">Tiến độ trong tuần</string>
+    <string name="weekly_subtitle">Số từ đã học mỗi ngày</string>
+
+    <string name="monday_short">T2</string>
+    <string name="tuesday_short">T3</string>
+    <string name="wednesday_short">T4</string>
+    <string name="thursday_short">T5</string>
+    <string name="friday_short">T6</string>
+    <string name="saturday_short">T7</string>
+    <string name="sunday_short">CN</string>
+    <string name="current_topic">Chủ đề đang học</string>
+
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_search">Tìm kiếm</string>
+    <string name="nav_dashboard">Thống kê</string>
+    <string name="nav_favorite">Yêu thích</string>
+    <string name="nav_settings">Cài đặt</string>
+
+    <string name="my_word_list"> Danh sách từ vựng của tôi</string>
+    <string name="favorite_subtitle"> Tạo danh sách từ vựng yêu thích để ôn tập</string>
+    <string name="create_new_list"> + Tạo danh sách mới</string>
+    <string name="study_flashcard">Học Flashcard</string>
+
+    <string name="vocabulary">Từ vựng</string>
+
+    <string name="hint_enter_word">Nhập từ cần tìm...</string>
+    <string name="no_result_found">Không tìm thấy kết quả.</string>
+    <string name="meaning">Meaning</string>
+    <string name="example">Example</string>
+
+    <string name="profile_title">Bắt đầu hành trình của bạn</string>
+    <string name="profile_subtitle">Đăng nhập để đồng bộ tiến độ học</string>
+
+    <string name="general_settings">CÀI ĐẶT CHUNG</string>
+    <string name="dark_mode">Chế độ tối</string>
+    <string name="sound">Âm thanh</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="reminder">Nhắc nhở học từ vựng</string>
+
+    <string name="default_language">Tiếng Việt</string>
+
+    <string name="account_section">TÀI KHOẢN</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="delete_account">Xóa tài khoản của tôi</string>
+
+    <string name="support_section">HỖ TRỢ</string>
+    <string name="terms">Điều khoản sử dụng</string>
+    <string name="privacy">Chính sách bảo mật</string>
+
+    <string name="choose_language">Chọn ngôn ngữ</string>
+    <string name="language_changed">Đã đổi ngôn ngữ</string>
+
+    <string name="reminder_channel_name">Nhắc nhở học từ vựng</string>
+    <string name="reminder_channel_description">Thông báo nhắc bạn học từ vựng mỗi ngày</string>
+    <string name="reminder_notification_text">Đến giờ học từ vựng rồi! Học vài từ mới hôm nay nhé.</string>
+    <string name="reminder_notification_big_text">Đến giờ học từ vựng rồi! Học vài từ mới để giữ tiến độ hôm nay nhé.</string>
+
+    <string name="game_detail_score_format">Đúng: %1$d\u00A0\u00A0\u00A0Sai: %2$d</string>
+
+    <string name="tts_english_not_supported">Thiết bị này không hỗ trợ giọng đọc tiếng Anh</string>
+    <string name="tts_failed">Không thể khởi động đọc âm thanh</string>
+    <string name="audio_not_ready">Âm thanh chưa sẵn sàng</string>
+
+    <!-- Language names -->
+    <string name="language_vietnamese">Tiếng Việt</string>
+    <string name="language_english">Tiếng Anh</string>
+    <string name="language_japanese">Tiếng Nhật</string>
+    <string name="language_korean">Tiếng Hàn</string>
+
+    <!-- Common -->
+    <string name="create">Tạo</string>
+    <string name="delete">Xóa</string>
+    <string name="ok">OK</string>
+    <string name="next">Tiếp theo</string>
+    <string name="finish">Kết thúc</string>
+    <string name="no_words">Không có từ vựng</string>
+    <string name="no_answer">Không có đáp án</string>
+    <string name="back">Quay lại</string>
+    <string name="audio">Âm thanh</string>
+    <string name="review_game">Game ôn tập</string>
+    <string name="sync_data_failed">Không thể đồng bộ dữ liệu</string>
+    <string name="no_topic_data">Không có dữ liệu topic</string>
+
+    <!-- Flashcard -->
+    <string name="tap_card_to_show_meaning">Chạm vào thẻ để xem nghĩa</string>
+    <string name="flashcards_shuffled">Đã xáo trộn flashcard</string>
+    <string name="sound_is_off">Âm thanh đang tắt</string>
+    <string name="marked_as_learned_format">Đã đánh dấu đã học: %1$s</string>
+    <string name="default_review_list">Cần ôn tập</string>
+    <string name="create_new_list_with_plus">+ Tạo danh sách mới</string>
+    <string name="save_word_to_list">Lưu từ vào danh sách</string>
+    <string name="removed_from_format">Đã xóa khỏi %1$s</string>
+    <string name="saved_to_format">Đã lưu vào %1$s</string>
+    <string name="finished_topic">Bạn đã hoàn thành chủ đề này!</string>
+    <string name="not_enough_words_to_shuffle">Không đủ từ để xáo trộn</string>
+
+    <!-- Game -->
+    <string name="game_match_words">Ghép từ với nghĩa</string>
+    <string name="choose_correct_meaning">Chọn nghĩa đúng của từ</string>
+    <string name="fill_missing_word">Điền từ còn thiếu</string>
+    <string name="check_answer">Kiểm tra</string>
+    <string name="correct_answer">Đúng rồi!</string>
+    <string name="correct_plus_one">Đúng rồi! +1 điểm</string>
+    <string name="correct_plus_one_short">Đúng rồi +1</string>
+    <string name="wrong_answer">Sai rồi!</string>
+    <string name="answer_format">Đáp án: %1$s</string>
+    <string name="choose_word_first">Chọn từ trước</string>
+    <string name="match_completed">Hoàn thành ghép từ!</string>
+    <string name="try_again">Chưa đúng, thử lại</string>
+    <string name="answer_before_next">Hãy trả lời trước khi qua câu tiếp theo</string>
+    <string name="score_point_format">%1$d điểm</string>
+
+    <!-- Login / Register -->
+    <string name="logging_in">Đang đăng nhập...</string>
+    <string name="login_success">Đăng nhập thành công</string>
+    <string name="login_failed_format">Đăng nhập thất bại: %1$s</string>
+    <string name="google_login_success">Đăng nhập Google thành công</string>
+    <string name="facebook_login_success">Đăng nhập Facebook thành công</string>
+    <string name="error_enter_email">Vui lòng nhập email</string>
+    <string name="error_invalid_email">Email không hợp lệ</string>
+    <string name="error_enter_password">Vui lòng nhập mật khẩu</string>
+    <string name="error_password_no_space">Mật khẩu không được chứa khoảng trắng</string>
+    <string name="error_password_min_6">Mật khẩu phải từ 6 ký tự trở lên</string>
+    <string name="reset_password_email_sent">Đã gửi email đặt lại mật khẩu</string>
+    <string name="register_success">Đăng ký thành công</string>
+    <string name="register_failed_format">Đăng ký thất bại: %1$s</string>
+    <string name="error_enter_name">Vui lòng nhập họ tên</string>
+    <string name="error_enter_confirm_password">Vui lòng nhập lại mật khẩu</string>
+    <string name="error_password_not_match">Mật khẩu nhập lại không khớp</string>
+
+    <!-- Settings -->
+    <string name="avatar_changed">Đã đổi avatar</string>
+    <string name="reminder_enabled_message">Đã bật nhắc nhở học từ vựng</string>
+    <string name="reminder_disabled_message">Đã tắt nhắc nhở học từ vựng</string>
+    <string name="notification_permission_required">Bạn cần cấp quyền thông báo để nhận nhắc nhở</string>
+    <string name="notification_permission_not_required">Máy này không cần cấp quyền thông báo riêng</string>
+    <string name="login_required_change_avatar">Vui lòng đăng nhập để đổi avatar</string>
+    <string name="default_user_name">Người dùng WordMate</string>
+    <string name="logged_in">Đã đăng nhập</string>
+    <string name="start_your_journey">Bắt đầu hành trình của bạn</string>
+    <string name="login_to_sync_progress">Đăng nhập để đồng bộ tiến độ học</string>
+    <string name="reminder_time_set_format">Đã đặt nhắc học lúc %1$s</string>
+    <string name="allow_notification">Cho phép thông báo</string>
+    <string name="notification_permission_message">WordMate cần quyền thông báo để nhắc bạn học từ vựng mỗi ngày.</string>
+    <string name="grant_permission">Cấp quyền</string>
+    <string name="later">Để sau</string>
+
+    <!-- Account -->
+    <string name="account_not_logged_in">Bạn chưa đăng nhập.</string>
+    <string name="not_logged_in">Bạn chưa đăng nhập</string>
+    <string name="no_email">Không có email</string>
+    <string name="error_name_empty">Tên không được để trống</string>
+    <string name="error_name_min_2">Tên phải từ 2 ký tự</string>
+    <string name="account_update_success">Đã cập nhật thông tin</string>
+    <string name="account_update_failed_format">Không thể cập nhật: %1$s</string>
+    <string name="logout_confirm_message">Bạn có chắc muốn đăng xuất không?</string>
+    <string name="logged_out">Đã đăng xuất</string>
+    <string name="delete_account_confirm_message">Bạn có chắc muốn xóa tài khoản không?\n\nHành động này sẽ xóa dữ liệu học và không thể hoàn tác.</string>
+    <string name="delete_account_success">Đã xóa tài khoản</string>
+    <string name="delete_account_data_failed_format">Không thể xóa dữ liệu tài khoản: %1$s</string>
+    <string name="re_login_required_delete_account">Bạn cần đăng nhập lại rồi mới xóa được tài khoản</string>
+    <string name="delete_account_failed_format">Không thể xóa tài khoản: %1$s</string>
+
+    <!-- Favorite / word list -->
+    <string name="list_name">Tên danh sách</string>
+    <string name="list_name_empty">Tên danh sách không được để trống</string>
+    <string name="word_count_format">%1$d từ</string>
+    <string name="list_has_no_words">Danh sách này chưa có từ nào</string>
+    <string name="delete_list">Xóa danh sách</string>
+    <string name="delete_list_message_format">Bạn có muốn xóa "%1$s" không?</string>
+    <string name="deleted_format">Đã xóa: %1$s</string>
+    <string name="words_in_this_list_format">%1$d từ trong danh sách này</string>
+    <string name="removed_word_format">Đã xóa: %1$s</string>
+    <string name="created_format">Đã tạo: %1$s</string>
+
+    <!-- Dashboard -->
+    <string name="today_progress_dynamic_format">Bạn đã học %1$d / %2$d từ hôm nay</string>
+    <string name="enter_daily_goal_hint">Nhập mục tiêu từ/ngày</string>
+    <string name="daily_goal_title">Cài đặt mục tiêu</string>
+    <string name="daily_goal_message">Bạn muốn học bao nhiêu từ mỗi ngày?</string>
+    <string name="error_enter_goal">Vui lòng nhập mục tiêu</string>
+    <string name="daily_goal_saved_format">Đã lưu mục tiêu: %1$d từ/ngày</string>
+    <string name="no_topic">Chưa có chủ đề</string>
+
+    <!-- Info page -->
+    <string name="privacy_policy">Chính sách bảo mật</string>
+    <string name="privacy_policy_content">Chính sách bảo mật của WordMate\n\nWordMate tôn trọng quyền riêng tư của người dùng và cam kết bảo vệ thông tin cá nhân trong quá trình sử dụng ứng dụng.\n\n1. Thông tin được thu thập\nWordMate có thể thu thập và lưu trữ một số thông tin cần thiết như: email, tên hiển thị, ảnh đại diện, tiến độ học tập, danh sách từ yêu thích, thời gian học, mục tiêu học mỗi ngày và các cài đặt cá nhân như ngôn ngữ, âm thanh, chế độ tối và thời gian nhắc nhở.\n\n2. Mục đích sử dụng thông tin\nCác thông tin trên được sử dụng để hỗ trợ đăng nhập, đồng bộ dữ liệu học tập, lưu tiến độ học, cá nhân hóa trải nghiệm học từ vựng, hiển thị thống kê học tập và gửi nhắc nhở học từ vựng hằng ngày nếu người dùng bật chức năng này.\n\n3. Đồng bộ dữ liệu\nKhi người dùng đăng nhập, một số dữ liệu học tập có thể được đồng bộ lên Firebase để giúp người dùng tiếp tục học trên cùng một tài khoản. WordMate không bán, trao đổi hoặc chia sẻ dữ liệu cá nhân của người dùng cho bên thứ ba vì mục đích thương mại.\n\n4. Quyền truy cập thiết bị\nỨng dụng có thể yêu cầu quyền Internet để đăng nhập, tra cứu từ vựng và đồng bộ dữ liệu. Ứng dụng cũng có thể yêu cầu quyền thông báo để gửi nhắc nhở học tập. Nếu người dùng chọn ảnh đại diện từ thiết bị, ứng dụng chỉ sử dụng ảnh đó cho mục đích hiển thị hồ sơ cá nhân trong WordMate.\n\n5. Bảo vệ dữ liệu\nWordMate cố gắng bảo vệ dữ liệu người dùng thông qua các dịch vụ xác thực và lưu trữ an toàn. Tuy nhiên, người dùng cần tự bảo mật tài khoản, không chia sẻ mật khẩu hoặc thông tin đăng nhập cho người khác.\n\n6. Quyền của người dùng\nNgười dùng có thể cập nhật thông tin tài khoản, thay đổi cài đặt cá nhân, tắt thông báo nhắc nhở, đăng xuất hoặc yêu cầu xóa tài khoản trong ứng dụng. Khi tài khoản bị xóa, một số dữ liệu học tập liên quan có thể không khôi phục được.\n\n7. Thay đổi chính sách\nChính sách bảo mật có thể được cập nhật khi ứng dụng thay đổi hoặc bổ sung tính năng. Việc tiếp tục sử dụng WordMate sau khi chính sách được cập nhật đồng nghĩa với việc người dùng đồng ý với nội dung mới.</string>
+
+    <string name="terms_of_service_content">Điều khoản sử dụng WordMate\n\nKhi sử dụng WordMate, người dùng đồng ý tuân thủ các điều khoản dưới đây.\n\n1. Mục đích sử dụng\nWordMate là ứng dụng hỗ trợ học từ vựng tiếng Anh thông qua flashcard, game ôn tập, tra cứu từ vựng, lưu từ yêu thích, theo dõi tiến độ học tập và nhắc nhở học hằng ngày. Ứng dụng được thiết kế phục vụ mục đích học tập cá nhân.\n\n2. Tài khoản người dùng\nNgười dùng có thể đăng ký, đăng nhập bằng email hoặc các phương thức đăng nhập được hỗ trợ như Google và Facebook. Người dùng chịu trách nhiệm bảo mật thông tin tài khoản của mình và không nên chia sẻ tài khoản cho người khác.\n\n3. Dữ liệu học tập\nỨng dụng có thể lưu tiến độ học, danh sách từ yêu thích, điểm game, mục tiêu học tập, thời gian học và các cài đặt cá nhân để giúp người dùng theo dõi quá trình học. Khi đăng nhập, dữ liệu có thể được đồng bộ để hỗ trợ sử dụng trên nhiều thiết bị.\n\n4. Trách nhiệm của người dùng\nNgười dùng không được sử dụng ứng dụng để thực hiện hành vi gian lận, phá hoại hệ thống, truy cập trái phép dữ liệu, gây ảnh hưởng đến tài khoản người khác hoặc sử dụng ứng dụng sai mục đích.\n\n5. Nội dung học tập\nNội dung từ vựng, ví dụ, nghĩa từ, phát âm và gợi ý học tập trong WordMate chỉ mang tính hỗ trợ. Người dùng nên kết hợp thêm tài liệu học tập, từ điển hoặc giáo viên để đạt hiệu quả tốt hơn.\n\n6. Dịch vụ bên thứ ba\nWordMate có thể sử dụng Firebase, Google Sign-In, Facebook Login hoặc API tra cứu từ vựng để cung cấp chức năng đăng nhập, đồng bộ và tra cứu. Việc sử dụng các dịch vụ này có thể chịu thêm chính sách và điều khoản riêng của từng nhà cung cấp.\n\n7. Thay đổi hoặc gián đoạn dịch vụ\nWordMate có thể được cập nhật, sửa lỗi, thay đổi giao diện hoặc bổ sung tính năng trong tương lai. Một số chức năng có thể tạm thời gián đoạn trong quá trình bảo trì, lỗi kết nối mạng hoặc do dịch vụ bên thứ ba gặp sự cố.\n\n8. Xóa tài khoản\nNgười dùng có thể xóa tài khoản nếu không muốn tiếp tục sử dụng ứng dụng. Khi xóa tài khoản, một số dữ liệu học tập liên quan có thể bị xóa và không thể khôi phục.\n\n9. Giới hạn trách nhiệm\nWordMate cố gắng cung cấp trải nghiệm học tập ổn định và hữu ích, nhưng không cam kết rằng ứng dụng luôn không có lỗi hoặc phù hợp tuyệt đối với mọi mục đích học tập của từng người dùng.\n\n10. Chấp nhận điều khoản\nBằng việc tiếp tục sử dụng WordMate, người dùng xác nhận đã đọc, hiểu và đồng ý với các điều khoản sử dụng này.</string>
+    <string name="flashcard_title">Flashcard</string>
+    <string name="game_title">Game</string>
+
+    <string name="answer_option_a_format">A. %1$s</string>
+    <string name="answer_option_b_format">B. %1$s</string>
+    <string name="answer_option_c_format">C. %1$s</string>
+    <string name="answer_option_d_format">D. %1$s</string>
+    <string name="flashcard_count_format">%1$d / %2$d</string>
+    <string name="empty_flashcard_count">0 / 0</string>
+    <string name="percent_format">%1$d%%</string>
+    <string name="study_minutes_format">%1$dm</string>
+    <string name="study_hours_format">%1$dh</string>
+    <string name="study_hours_minutes_format">%1$dh %2$dm</string>
+
+    <string name="change_password">Đổi mật khẩu?</string>
+    <string name="change_password_title">Đổi mật khẩu</string>
+    <string name="change_password_subtitle">Nhập mật khẩu mới cho WordMate. Nếu bạn đăng nhập bằng Google hoặc Facebook, mật khẩu này chỉ dùng để đăng nhập vào WordMate bằng email.</string>
+    <string name="current_password">Mật khẩu hiện tại</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="confirm_new_password">Nhập lại mật khẩu mới</string>
+    <string name="error_enter_current_password">Vui lòng nhập mật khẩu hiện tại</string>
+    <string name="error_enter_new_password">Vui lòng nhập mật khẩu mới</string>
+    <string name="error_enter_confirm_new_password">Vui lòng nhập lại mật khẩu mới</string>
+    <string name="error_new_password_same">Mật khẩu mới không được trùng mật khẩu hiện tại</string>
+    <string name="current_password_wrong">Mật khẩu hiện tại không đúng</string>
+    <string name="password_change_success">Đổi mật khẩu thành công</string>
+    <string name="password_change_failed_format">Không thể đổi mật khẩu: %1$s</string>
+
+    <string name="error_enter_email_for_reset">Vui lòng nhập email để đặt lại mật khẩu</string>
+    <string name="reset_password_failed_format">Không thể gửi email đặt lại mật khẩu: %1$s</string>
+    <string name="send_reset_email">Gửi email đặt lại mật khẩu</string>
+    <string name="sending">Đang gửi...</string>
+
+    <string name="logging_register">Đang đăng ký...</string>
+    <string name="register_success_go_login">Đăng ký thành công. Vui lòng đăng nhập để tiếp tục</string>
+    <string name="error_confirm_password_no_space">Mật khẩu nhập lại không được chứa khoảng trắng</string>
+
+    <string name="unmarked_as_learned_format">Đã bỏ đánh dấu \"%1$s\" là đã học</string>
+
+    <string name="daily_goal_note">Gợi ý: nên đặt mục tiêu từ 5 đến 20 từ mỗi ngày để duy trì thói quen học đều đặn.</string>
+
+    <string name="save_word_subtitle_format">Chọn danh sách để lưu từ: %1$s</string>
+
+    <string name="splash_subtitle">Learn English smarter</string>
+
+    <string name="getting_started_title">Học từ vựng dễ dàng hơn</string>
+    <string name="getting_started_subtitle">WordMate giúp bạn học từ theo chủ đề, luyện tập bằng flashcard và theo dõi tiến độ mỗi ngày.</string>
+
+    <string name="onboarding_topic_title">Học từ theo chủ đề</string>
+    <string name="onboarding_topic_desc">Khám phá các nhóm từ quen thuộc như du lịch, trường học, công việc, công nghệ và nhiều chủ đề khác.</string>
+
+    <string name="onboarding_practice_title">Luyện tập bằng flashcard và game</string>
+    <string name="onboarding_practice_desc">Xem nghĩa, nghe phát âm, đánh dấu từ đã học và ôn tập lại bằng các trò chơi ngắn.</string>
+
+    <string name="onboarding_progress_title">Theo dõi tiến độ học tập</string>
+    <string name="onboarding_progress_desc">Theo dõi từ đã học, streak, thời gian học, mục tiêu mỗi ngày và các từ cần ôn.</string>
+
+    <string name="get_started">Bắt đầu</string>
+
+    <string name="choose_language_title">Chọn ngôn ngữ</string>
+    <string name="choose_language_subtitle">Chọn ngôn ngữ bạn muốn sử dụng trong ứng dụng.</string>
+    <string name="no_review_words">Chưa có từ cần ôn</string>
+
+    <string name="search_a_word_first">Hãy tra một từ trước</string>
+    <string name="enter_word_first">Hãy nhập một từ trước</string>
+    <string name="dictionary_api_error">Không thể kết nối đến API từ điển. Hãy kiểm tra kết nối Internet.</string>
+    <string name="no_definition_found">Không tìm thấy định nghĩa.</string>
+    <string name="no_example_available">Không có ví dụ.</string>
+</resources>

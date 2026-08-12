@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base -->
+    <color name="white">#1F244A</color>
+    <color name="black">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Main theme -->
+    <color name="primary_blue">#59B7FF</color>
+    <color name="dark_navy">#FFFFFF</color>
+    <color name="soft_blue">#172A58</color>
+
+    <!-- Background / text -->
+    <color name="light_background">#172A58</color>
+    <color name="light_text">#FFFFFF</color>
+    <color name="light_button">#59B7FF</color>
+
+    <color name="dark_background">#121A39</color>
+    <color name="dark_text">#FFFFFF</color>
+    <color name="dark_button">#59B7FF</color>
+
+    <!-- Neutral -->
+    <color name="dark_gray">#C8D2F0</color>
+    <color name="gray">#9AA7C7</color>
+    <color name="light_gray">#3A476B</color>
+    <color name="very_light_gray">#2A3354</color>
+
+    <!-- Status -->
+    <color name="error_red">#FF6B81</color>
+    <color name="warning_yellow">#FFD54F</color>
+    <color name="success_green">#59E39B</color>
+
+    <color name="light_green">#18392E</color>
+    <color name="light_red">#402030</color>
+
+    <color name="streak">#FF9E3D</color>
+
+    <!-- Card / border -->
+    <color name="card_border_blue">#3D4D77</color>
+    <color name="card_shadow_gray">#10162D</color>
+
+    <!-- Transparent -->
+    <color name="transparent_white_light">#1FFFFFFF</color>
+    <color name="transparent_white_medium">#33FFFFFF</color>
+
+    <!-- Switch -->
+    <color name="switch_thumb_checked">#59B7FF</color>
+    <color name="switch_thumb_unchecked">#A6B2D3</color>
+
+    <!-- Gradient colors -->
+    <color name="dark_gradient_start">#22143D</color>
+    <color name="dark_gradient_center">#172A58</color>
+    <color name="dark_gradient_end">#28124D</color>
+
+    <!-- Card gradient -->
+    <color name="dark_card_start">#2C3A5F</color>
+    <color name="dark_card_end">#1F244A</color>
+
+    <!-- Button dark -->
+    <color name="dark_button_card">#3A4060</color>
+</resources>
